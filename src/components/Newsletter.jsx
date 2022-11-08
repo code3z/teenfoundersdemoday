@@ -38,15 +38,15 @@ export function Newsletter() {
                 Stay up to date
               </p>
               <p className="mt-4 text-lg tracking-tight text-blue-900">
-                Get updates on all of our events and be the first to get
-                notified when tickets go on sale.
+                Get updates on all of our events. Never miss an opportunity to
+                meet incredible teen founders.
               </p>
             </div>
             <form action="https://formspree.io/f/mnqrlnzn" method="POST">
               <h3 className="text-lg font-semibold tracking-tight text-blue-900">
                 Sign up to our newsletter <span aria-hidden="true">&darr;</span>
               </h3>
-              <div className="mt-5 flex rounded-3xl bg-white py-2.5 pr-2.5 shadow-xl shadow-blue-900/5 focus-within:ring-2 focus-within:ring-blue-900">
+              <div className="mt-5 flex rounded-full bg-white py-2.5 pr-2.5 shadow-xl shadow-blue-900/5 focus-within:ring-2 focus-within:ring-blue-900">
                 <input
                   type="email"
                   name="email"

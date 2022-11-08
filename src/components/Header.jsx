@@ -7,7 +7,7 @@ export function Header() {
   return (
     <header className="relative z-50 pb-11 lg:pt-11">
       <Container className="flex flex-wrap items-center justify-center sm:justify-between lg:flex-nowrap">
-        <div className="mt-10 font-display text-xl font-bold text-blue-600 lg:mt-0 lg:grow lg:basis-0">
+        <div className="mt-10 max-w-md shrink font-display text-xl font-bold text-blue-600 lg:mt-0 lg:grow lg:basis-0">
           <Image
             className="mr-3 inline drop-shadow-lg"
             height={100}

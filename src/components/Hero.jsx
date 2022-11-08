@@ -7,7 +7,7 @@ import backgroundImage from '@/images/background2.png'
 export function Hero() {
   return (
     <div className="relative pt-10 pb-20 sm:py-24">
-      <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden bg-gray-900">
+      <div className="absolute inset-x-0 -top-64 -bottom-14 overflow-hidden bg-gray-900 md:-top-44">
         <div className="absolute inset-x-0 top-0 h-36 bg-gradient-to-b from-gray-800" />
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-gray-900" />
       </div>
@@ -25,14 +25,14 @@ export function Hero() {
             </p>
             <p>Get the chance to invest in them this November.</p>
           </div>
-          <Button href="#" className="mt-10 w-full sm:hidden">
-            Get your tickets
+          <Button href="https://lu.ma/vcs" className="mt-10 w-full sm:hidden">
+            Sign Up!
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Speakers', '18'],
-              ['Venue', 'Staples Center'],
-              ['Location', 'Los Angeles'],
+              ['Teenage Founders Pitching', '6'],
+              ['Combined Capital Raised', '$2M+'],
+              ['Location', 'Online'],
             ].map(([name, value]) => (
               <div key={name}>
                 <dt className="font-mono text-sm text-primary">{name}</dt>
