@@ -16,7 +16,7 @@ export default function Document() {
         />
         <script
           async
-          src="https://cdn.volument.com/beta/volument.js"
+          src="https://cdn.volument.com/beta/volument-full.js"
           token="3715e2604b"
         ></script>
       </Head>
