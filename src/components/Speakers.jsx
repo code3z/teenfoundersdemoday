@@ -183,21 +183,22 @@ export function Speakers() {
     >
       <ImageClipPaths id={id} />
       <Container>
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        <div className="relative sticky top-0 z-50 mx-auto w-full -translate-x-0.5 bg-gray-900 px-1 pt-8 lg:mx-0">
           <h2
             id="speakers-title"
-            className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+            className="font-display text-4xl font-medium tracking-tighter text-primary sm:text-5xl"
           >
-            Speakers
+            People
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Learn from the experts on the cutting-edge of deception at the most
-            sinister companies.
+          <p className="mt-4 max-w-2xl font-display text-2xl tracking-tight text-primary-light">
+            Meet amazing teen founders, awesome VCs who want to invest in them,
+            and our great organizers.
           </p>
+          <div className="absolute -bottom-12 h-12 w-full bg-gradient-to-b from-gray-900 via-gray-900" />
         </div>
         <Tab.Group
           as="div"
-          className="mt-14 grid grid-cols-1 items-start gap-y-8 gap-x-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
+          className="mt-14 grid grid-cols-1 items-start gap-y-8 gap-x-8 px-1 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
           vertical={tabOrientation === 'vertical'}
         >
           <div className="relative -mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:block sm:overflow-visible sm:pb-0">
@@ -210,7 +211,7 @@ export function Speakers() {
                       className={clsx(
                         'absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block',
                         dayIndex === selectedIndex
-                          ? 'fill-blue-600 stroke-blue-600'
+                          ? 'fill-orange-600 stroke-orange-600'
                           : 'fill-transparent stroke-slate-400'
                       )}
                     />
@@ -219,8 +220,8 @@ export function Speakers() {
                         className={clsx(
                           'font-mono text-sm',
                           dayIndex === selectedIndex
-                            ? 'text-blue-600'
-                            : 'text-slate-500'
+                            ? 'text-primary'
+                            : 'text-primary-light'
                         )}
                       >
                         <Tab className="[&:not(:focus-visible)]:focus:outline-none">
@@ -230,7 +231,7 @@ export function Speakers() {
                       </div>
                       <time
                         dateTime={day.dateTime}
-                        className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900"
+                        className="mt-1.5 block text-2xl font-semibold tracking-tight text-primary"
                       >
                         {day.date}
                       </time>

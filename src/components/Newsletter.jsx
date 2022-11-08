@@ -42,15 +42,16 @@ export function Newsletter() {
                 notified when tickets go on sale.
               </p>
             </div>
-            <form>
+            <form action="https://formspree.io/f/mnqrlnzn" method="POST">
               <h3 className="text-lg font-semibold tracking-tight text-blue-900">
                 Sign up to our newsletter <span aria-hidden="true">&darr;</span>
               </h3>
               <div className="mt-5 flex rounded-3xl bg-white py-2.5 pr-2.5 shadow-xl shadow-blue-900/5 focus-within:ring-2 focus-within:ring-blue-900">
                 <input
                   type="email"
+                  name="email"
                   required
-                  placeholder="Email address"
+                  placeholder="john@unicorn.co"
                   aria-label="Email address"
                   className="-my-2.5 flex-auto bg-transparent pl-6 pr-2.5 text-base text-slate-900 placeholder:text-slate-400 focus:outline-none"
                 />
