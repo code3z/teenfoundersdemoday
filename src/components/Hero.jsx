@@ -7,8 +7,8 @@ import backgroundImage from '@/images/background2.png'
 export function Hero() {
   return (
     <div className="relative pt-10 pb-20 sm:py-24">
-      <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden bg-neutral-900">
-        <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-neutral-900" />
+      <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden bg-zinc-900">
+        <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-slate-900" />
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-neutral-900" />
       </div>
       <Container className="relative">
@@ -35,7 +35,9 @@ export function Hero() {
               ['Location', 'Los Angeles'],
             ].map(([name, value]) => (
               <div key={name}>
-                <dt className="font-mono text-sm text-[#FF9E2C] brightness-125">{name}</dt>
+                <dt className="font-mono text-sm text-[#FF9E2C] brightness-125">
+                  {name}
+                </dt>
                 <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-[#FF9E2C]">
                   {value}
                 </dd>
