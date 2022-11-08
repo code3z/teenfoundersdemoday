@@ -7,7 +7,7 @@ import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/Schedule'
 import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
-
+import { Button } from '@/components/Button'
 export default function Home() {
   return (
     <>
@@ -26,6 +26,12 @@ export default function Home() {
         {/* <Speakers /> */}
         {/* <Schedule />*/}
         <Sponsors />
+        <div className="my-12 flex justify-center">
+          <Button href="https://lu.ma/vcs">
+            Signup for the demo day!
+            <span className="ml-2">🚀</span>
+          </Button>
+        </div>
         <Newsletter />
       </main>
       <Footer />
