@@ -28,7 +28,7 @@ export function Hero() {
           <Button href="https://lu.ma/vcs" className="mt-10 w-full sm:hidden">
             Sign Up!
           </Button>
-          <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
+          <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['Teenage Founders Pitching', '6'],
               ['Combined Capital Raised', '$2M+'],
