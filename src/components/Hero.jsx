@@ -23,7 +23,7 @@ export function Hero() {
               working on their first startups. We&apos;ve selected the top 1% of
               teenage founders to demo their innovations.
             </p>
-            <p>Get the chance to invest in them this November.</p>
+            <p>Get the chance to invest in them this December.</p>
           </div>
           <Button href="https://lu.ma/vcs" className="mt-10 w-full sm:hidden">
             Sign Up!

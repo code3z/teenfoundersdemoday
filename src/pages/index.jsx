@@ -26,13 +26,20 @@ export default function Home() {
         {/* <Speakers /> */}
         {/* <Schedule />*/}
         <Sponsors />
-        <div className="my-12 flex justify-center">
+        <div className="my-12 flex items-center justify-center space-x-8">
           <Button href="https://lu.ma/vcs">
-            Signup for the demo day!
+            Signup as a VC
             <span className="ml-2">🚀</span>
           </Button>
+          <a
+            href="https://joinaviato.com/teenfounders"
+            className="text-white hover:underline"
+          >
+            Apply to pitch
+            <span className="ml-2">📣</span>
+          </a>
         </div>
-        <Newsletter />
+        {/*<Newsletter />*/}
       </main>
       <Footer />
     </>
