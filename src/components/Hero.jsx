@@ -24,6 +24,19 @@ export function Hero() {
               teenage founders to demo their innovations.
             </p>
             <p>Get the chance to invest in them this December.</p>
+            <div className="my-12 flex items-center space-x-8">
+              <Button href="https://lu.ma/vcs">
+                Signup as a VC
+                <span className="ml-2">🚀</span>
+              </Button>
+              <a
+                href="https://joinaviato.com/teenfounders"
+                className="text-lg text-white hover:underline"
+              >
+                Apply to pitch
+                <span className="ml-2">📣</span>
+              </a>
+            </div>
           </div>
           <Button href="https://lu.ma/vcs" className="mt-10 w-full sm:hidden">
             Sign Up!
