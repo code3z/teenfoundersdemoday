@@ -17,14 +17,14 @@ export function Header() {
         <div className="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-blue-600/10 py-4 font-mono text-sm text-[#FF9E2C] sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
           <div className="mx-auto flex items-center gap-4 px-4">
             <p>
-              <time dateTime="2022-12-08">08 of December, 2022</time>
+              <time dateTime="2023-04-25">25th of April, 2023 (11:00 AM PDT/ 2:00 PM EDT)</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
             <p>Virtual</p>
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="https://lu.ma/vcs">
+          <Button href="https://lu.ma/aotfdemoday">
             Signup!
             <span className="ml-2">🚀</span>
           </Button>

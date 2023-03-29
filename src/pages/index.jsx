@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Teen Founder Demo Day - see future Elon Musks present their startup
+          AoTF: The Demo Day
         </title>
         <meta
           name="description"
@@ -27,7 +27,7 @@ export default function Home() {
         {/* <Schedule />*/}
         <Sponsors />
         <div className="my-12 flex items-center justify-center space-x-8">
-          <Button href="https://lu.ma/vcs">
+          <Button href="https://lu.ma/aotfdemoday">
             Signup as a VC
             <span className="ml-2">🚀</span>
           </Button>
