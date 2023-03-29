@@ -23,9 +23,9 @@ export function Hero() {
               working on their first startups. We&apos;ve selected the top 1% of
               teenage founders to demo their innovations.
             </p>
-            <p>Get the chance to invest in them this December.</p>
+            <p>Get the chance to invest in them this April.</p>
             <div className="my-12 flex items-center space-x-8">
-              <Button href="https://lu.ma/vcs">
+              <Button href="https://lu.ma/aotfdemoday">
                 Signup as a VC
                 <span className="ml-2">🚀</span>
               </Button>
@@ -38,13 +38,13 @@ export function Hero() {
               </a>
             </div>
           </div>
-          <Button href="https://lu.ma/vcs" className="mt-10 w-full sm:hidden">
+          <Button href="https://lu.ma/aotfdemoday" className="mt-10 w-full sm:hidden">
             Sign Up!
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Teenage Founders Pitching', '6'],
-              ['Combined Capital Raised', '$2M+'],
+              ['Teenage Founders Pitching', '10'],
+              ['Capital Previously Raised', '$2M+'],
               ['Location', 'Online'],
             ].map(([name, value]) => (
               <div key={name}>
