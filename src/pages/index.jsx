@@ -12,9 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          AoTF: The Demo Day
-        </title>
+        <title>AoTF: The Demo Day</title>
         <meta
           name="description"
           content="Teen Founder Demo Day is a virtual event where incredible teen founders present their startup to VCs and the audience."
@@ -25,8 +23,8 @@ export default function Home() {
         <Hero />
         {/* <Speakers /> */}
         {/* <Schedule />*/}
-        <Sponsors />
-        <div className="my-12 flex items-center justify-center space-x-8">
+        {/* <Sponsors /> */}
+        {/* <div className="my-12 flex items-center justify-center space-x-8">
           <Button href="https://lu.ma/aotfdemoday">
             Signup as a VC
             <span className="ml-2">🚀</span>
@@ -38,7 +36,7 @@ export default function Home() {
             Apply to pitch
             <span className="ml-2">📣</span>
           </a>
-        </div>
+  </div>*/}
         {/*<Newsletter />*/}
       </main>
       <Footer />
