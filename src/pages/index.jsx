@@ -21,7 +21,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        {/* <Speakers /> */}
+        <Speakers />
         {/* <Schedule />*/}
         {/* <Sponsors /> */}
         {/* <div className="my-12 flex items-center justify-center space-x-8">

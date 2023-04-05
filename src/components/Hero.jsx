@@ -38,13 +38,16 @@ export function Hero() {
               </a>
             </div>
           </div>
-          <Button href="https://lu.ma/aotfdemoday" className="mt-10 w-full sm:hidden">
+          <Button
+            href="https://lu.ma/aotfdemoday"
+            className="mt-10 w-full sm:hidden"
+          >
             Sign Up!
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['Teenage Founders Pitching', '10'],
-              ['Capital Previously Raised', '$2M+'],
+              ['Capital Previously Raised', '$10M+'],
               ['Location', 'Online'],
             ].map(([name, value]) => (
               <div key={name}>
