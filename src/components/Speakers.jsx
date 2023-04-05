@@ -6,7 +6,7 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 
-import eric from '@/images/avatars/eric.jpeg'
+//import eric from '@/images/avatars/eric.jpeg'
 
 export function Speakers() {
   let id = useId()
@@ -34,7 +34,7 @@ export function Speakers() {
       className="py-20 sm:py-32"
     >
       <Container>
-        <div className="relative sticky top-0 z-50 mx-auto w-full -translate-x-0.5 bg-gray-900 px-1 pt-8 lg:mx-0">
+        <div className="sticky top-0 z-50 mx-auto w-full -translate-x-0.5 bg-gray-900 px-1 pt-8 lg:mx-0">
           <h2
             id="speakers-title"
             className="font-display text-4xl font-medium tracking-tighter text-primary sm:text-5xl"
