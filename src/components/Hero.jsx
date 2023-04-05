@@ -30,7 +30,7 @@ export function Hero() {
                 <span className="ml-2">🚀</span>
               </Button>
               <a
-                href="https://joinaviato.com/teenfounders"
+                href="https://book.vimcal.com/p/jairelan/aotf"
                 className="text-lg text-white hover:underline"
               >
                 Apply to pitch
