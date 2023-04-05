@@ -8,6 +8,8 @@ import logoStaticKit from '@/images/logos/statickit.svg'
 import logo1517 from '@/images/logos/1517.svg'
 import nightVentures from '@/images/logos/nightventures.svg'
 import riefVentures from '@/images/logos/rief.png'
+import foundation from '@/images/logos/foundation.svg'
+import gc from '@/images/logos/gc.png'
 
 const vcs = [
   {
@@ -35,24 +37,10 @@ export function Sponsors() {
     <section id="sponsors" aria-label="Sponsors" className="py-20 sm:py-32">
       <Container>
         <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-primary sm:text-5xl">
-          Attended by awesome VCs who want to invest in the future.
+          Attended by incredible investors
         </h2>
         <div className="mx-auto mt-20 grid max-w-max grid-cols-1 place-content-center gap-y-12 gap-x-32 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
-          {/*vcs.map((sponsor) => (
-            <div
-              key={sponsor.name}
-              className="flex items-center justify-center"
-            >
-              <Image
-                src={sponsor.logo}
-                width={sponsor.width || 100}
-                height={100}
-                alt={sponsor.name}
-                unoptimized
-              />
-            </div>
-          ))*/}
-          <VC>
+          {/*  <VC>
             <Image
               src={riefVentures}
               height={100}
@@ -64,10 +52,18 @@ export function Sponsors() {
           <VC>
             <Image src={nightVentures} height={100} width={100} />
             <div>Night Ventures</div>
-          </VC>
+  </VC>*/}
           <VC>
             <Image src={logo1517} height={100} width={100} />
             <div>1517 Fund</div>
+          </VC>
+          <VC>
+            <Image src={foundation} height={100} width={100} />
+            <div>Foundation Capital</div>
+          </VC>
+          <VC>
+            <Image src={gc} height={40} width={40}></Image>
+            <div>Roughdraft by General Catalyst</div>
           </VC>
         </div>
         <div className="mt-8 text-center font-bold text-indigo-50">
