@@ -13,19 +13,21 @@ import pranjali from '@/images/avatars/pranjali.jpeg'
 const founders = [
   {
     name: 'Zach Laberge',
-    description:
-      '17 year old founder of Frenter, a rental marketplace for construction equipment',
+    age: 17,
+    company: 'Frenter, a rental marketplace for construction equipment',
     image: zach,
   },
   {
     name: 'Pranjali Awasthi',
+    age: 16,
+    company: 'Delv, an AI tool for researchers',
     description: 'Founder of Delv, an AI tool for researchers',
     image: pranjali,
   },
   {
     name: 'Eric Zhu',
-    description: `15 year old founder of Aviato, a startup search engine. He also founded a startup which was
-    acquired after growing its waitlist to 49k+ users and helped start a venture fund.`,
+    company: 'Aviato, a search engine for startups',
+    age: 15,
     image: eric,
   },
 ]
@@ -85,8 +87,11 @@ export function Speakers() {
                 <h3 className="mt-8 font-display text-3xl font-bold tracking-tight text-slate-100">
                   {founder.name}
                 </h3>
-                <p className="mt-1 text-base tracking-tight text-slate-400">
-                  {founder.description}
+                <p className="mt-1 text-lg  tracking-tight text-slate-300">
+                  founder of {founder.company}
+                </p>
+                <p className="mt-1 text-lg tracking-tight text-slate-400">
+                  {founder.age} years old
                 </p>
               </div>
             </div>
