@@ -13,21 +13,19 @@ import pranjali from '@/images/avatars/pranjali.jpeg'
 const founders = [
   {
     name: 'Eric Zhu',
-    description: `Eric is a 15 year old entrepreneur. He has scaled one startup to
-    10k+ active users, and founded another startup, which was
-    acquired after growing its waitlist to 49k+ users. His startup,
-    Aviato, is making a search engine for startups and has raised
-    $1m.`,
+    description: `15 year old founder of Aviato, a startup search engine that's raised $1m. Eric also founded a startup which was
+    acquired after growing its waitlist to 49k+ users and helped start a venture fund.`,
     image: eric,
   },
   {
     name: 'Zach Laberge',
-    description: 'Zach is the 17 year old founder of Frenter, a ',
+    description:
+      '17 year old founder of Frenter, a rental marketplace for construction equipment',
     image: zach,
   },
   {
     name: 'Pranjali Awasthi',
-    description: '',
+    description: 'Founder of Delv, an AI tool for researchers',
     image: pranjali,
   },
 ]

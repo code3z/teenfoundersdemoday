@@ -24,7 +24,7 @@ export default function Home() {
         <Speakers />
         {/* <Schedule />*/}
         <Sponsors />
-        {/* <div className="my-12 flex items-center justify-center space-x-8">
+        <div className="my-12 flex items-center justify-center space-x-8">
           <Button href="https://lu.ma/aotfdemoday">
             Signup as a VC
             <span className="ml-2">🚀</span>
@@ -36,7 +36,7 @@ export default function Home() {
             Apply to pitch
             <span className="ml-2">📣</span>
           </a>
-  </div>*/}
+        </div>
         {/*<Newsletter />*/}
       </main>
       <Footer />
