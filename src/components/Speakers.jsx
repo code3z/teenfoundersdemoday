@@ -6,8 +6,29 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 
-//import eric from '@/images/avatars/eric.jpeg'
+import eric from '@/images/avatars/eric.jpeg'
+import zach from '@/images/avatars/zach.jpeg'
+import pranjali from '@/images/avatars/pranjali.jpeg'
 
+const founders = [
+  {
+    name: 'Eric Zhu',
+    description: `15 year old founder of Aviato, a startup search engine that's raised $1m. Eric also founded a startup which was
+    acquired after growing its waitlist to 49k+ users and helped start a venture fund.`,
+    image: eric,
+  },
+  {
+    name: 'Zach Laberge',
+    description:
+      '17 year old founder of Frenter, a rental marketplace for construction equipment',
+    image: zach,
+  },
+  {
+    name: 'Pranjali Awasthi',
+    description: 'Founder of Delv, an AI tool for researchers',
+    image: pranjali,
+  },
+]
 export function Speakers() {
   let id = useId()
   let [tabOrientation, setTabOrientation] = useState('horizontal')
@@ -39,28 +60,37 @@ export function Speakers() {
             id="speakers-title"
             className="font-display text-4xl font-medium tracking-tighter text-primary sm:text-5xl"
           >
-            Who's pitching?
+            Who&apos;s pitching?
           </h2>
           <p className="mt-4 max-w-2xl font-display text-2xl tracking-tight text-primary-light">
-            Here's 3 of the awesome teens pitching.
+            These are just a few of the awesome teens pitching.
           </p>
           <div className="absolute -bottom-12 h-12 w-full bg-gradient-to-b from-gray-900 via-gray-900" />
         </div>
 
-        <div>
-          <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
-            <Image
-              className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
-              src={'speaker.image'}
-              alt=""
-              priority
-              sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
-            />
-            <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
-              name
-            </h3>
-            <p className="mt-1 text-base tracking-tight text-slate-500">role</p>
-          </div>
+        <div className="mx-0.5 mt-8">
+          {founders.map((founder) => (
+            <div
+              className="my-6 grid items-center rounded-4xl border-4 border-gray-800 bg-gray-800 sm:h-96 sm:grid-cols-[1fr_2fr] sm:gap-16"
+              key={founder.name}
+            >
+              <Image
+                className="h-full max-h-96 rounded-4xl object-cover"
+                src={founder.image}
+                alt=""
+                priority
+                sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+              />
+              <div className="mb-8 px-4">
+                <h3 className="mt-8 font-display text-3xl font-bold tracking-tight text-slate-100">
+                  {founder.name}
+                </h3>
+                <p className="mt-1 text-base tracking-tight text-slate-400">
+                  {founder.description}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
       </Container>
     </section>
