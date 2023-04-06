@@ -30,7 +30,7 @@ export function Hero() {
                 <span className="ml-2">🚀</span>
               </Button>
               <a
-                href="https://book.vimcal.com/p/jairelan/aotf"
+                href="mailto:pitch@teenagefounders.com"
                 className="text-lg text-white hover:underline"
               >
                 Apply to pitch
@@ -46,7 +46,6 @@ export function Hero() {
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Teenage Founders Pitching', '10'],
               ['Capital Previously Raised', '$8.5M+'],
               ['Location', 'Online'],
             ].map(([name, value]) => (

@@ -30,7 +30,7 @@ export default function Home() {
             <span className="ml-2">🚀</span>
           </Button>
           <a
-            href="https://book.vimcal.com/p/jairelan/aotf"
+            href="mailto:pitch@teenagefounders.com"
             className="text-white hover:underline"
           >
             Apply to pitch
