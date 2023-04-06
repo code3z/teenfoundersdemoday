@@ -88,7 +88,7 @@ export function Speakers() {
                   {founder.name}
                 </h3>
                 <p className="mt-1 text-lg  tracking-tight text-slate-300">
-                  founder of {founder.company}
+                  {founder.company}
                 </p>
                 <p className="mt-1 text-lg tracking-tight text-slate-400">
                   {founder.age} years old
