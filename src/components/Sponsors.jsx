@@ -9,7 +9,10 @@ import logo1517 from '@/images/logos/1517.svg'
 import nightVentures from '@/images/logos/nightventures.svg'
 import riefVentures from '@/images/logos/rief.png'
 import foundation from '@/images/logos/foundation.svg'
-import gc from '@/images/logos/gc.png'
+import gc from '@/images/logos/gc2.svg'
+import goldman from '@/images/logos/goldman.svg'
+import a16z from '@/images/logos/a16z.svg'
+import serena from '@/images/logos/serena.webp'
 
 const vcs = [
   {
@@ -54,6 +57,22 @@ export function Sponsors() {
             <div>Night Ventures</div>
   </VC>*/}
           <VC>
+            <Image src={goldman} height={100} width={100} className="invert" />
+            <div>Goldman Sachs</div>
+          </VC>
+          <VC>
+            <Image src={a16z} height={100} width={100} className="invert" />
+            <div>a16z</div>
+          </VC>
+          <VC>
+            <Image src={serena} height={200} width={200} className="" />
+            <div>Serena Ventures</div>
+          </VC>
+          <VC>
+            <Image src={gc} height={60} width={60}></Image>
+            <div>General Catalyst</div>
+          </VC>
+          <VC>
             <Image src={logo1517} height={100} width={100} />
             <div>1517 Fund</div>
           </VC>
@@ -61,13 +80,9 @@ export function Sponsors() {
             <Image src={foundation} height={100} width={100} />
             <div>Foundation Capital</div>
           </VC>
-          <VC>
-            <Image src={gc} height={40} width={40}></Image>
-            <div>Roughdraft by General Catalyst</div>
-          </VC>
         </div>
         <div className="mt-8 text-center font-bold text-indigo-50">
-          + Many More
+          + Elliot Padfield, Cory Levy, and many more
         </div>
       </Container>
     </section>

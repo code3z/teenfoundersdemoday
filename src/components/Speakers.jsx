@@ -20,7 +20,7 @@ const founders = [
   {
     name: 'Pranjali Awasthi',
     age: 16,
-    company: 'Delv: AI Tools For Researchers',
+    company: 'Delv, an AI-powered search platform for enterprise-level R&D',
     image: pranjali,
   },
   {
