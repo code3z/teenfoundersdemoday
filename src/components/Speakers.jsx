@@ -14,19 +14,18 @@ const founders = [
   {
     name: 'Zach Laberge',
     age: 17,
-    company: 'Frenter, a rental marketplace for construction equipment',
+    company: 'Frenter: Infrastructure For The Equipment Rental Industry',
     image: zach,
   },
   {
     name: 'Pranjali Awasthi',
     age: 16,
-    company: 'Delv, an AI tool for researchers',
-    description: 'Founder of Delv, an AI tool for researchers',
+    company: 'Delv: AI Tools For Researchers',
     image: pranjali,
   },
   {
     name: 'Eric Zhu',
-    company: 'Aviato, a search engine for startups',
+    company: 'Aviato, Search Engine For Startups',
     age: 15,
     image: eric,
   },
