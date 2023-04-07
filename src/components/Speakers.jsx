@@ -1,11 +1,5 @@
-import { useEffect, useId, useState } from 'react'
 import Image from 'next/image'
-import { Tab } from '@headlessui/react'
-import clsx from 'clsx'
-
 import { Container } from '@/components/Container'
-import { DiamondIcon } from '@/components/DiamondIcon'
-
 import eric from '@/images/avatars/eric.jpeg'
 import zach from '@/images/avatars/zach.jpeg'
 import pranjali from '@/images/avatars/pranjali.jpeg'
@@ -31,24 +25,6 @@ const founders = [
   },
 ]
 export function Speakers() {
-  let id = useId()
-  let [tabOrientation, setTabOrientation] = useState('horizontal')
-
-  useEffect(() => {
-    let lgMediaQuery = window.matchMedia('(min-width: 1024px)')
-
-    function onMediaQueryChange({ matches }) {
-      setTabOrientation(matches ? 'vertical' : 'horizontal')
-    }
-
-    onMediaQueryChange(lgMediaQuery)
-    lgMediaQuery.addEventListener('change', onMediaQueryChange)
-
-    return () => {
-      lgMediaQuery.removeEventListener('change', onMediaQueryChange)
-    }
-  }, [])
-
   return (
     <section
       id="speakers"
