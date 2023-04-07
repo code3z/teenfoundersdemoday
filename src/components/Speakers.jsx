@@ -14,7 +14,7 @@ const founders = [
   {
     name: 'Zach Laberge',
     age: 17,
-    company: 'Frenter: Infrastructure For The Equipment Rental Industry',
+    company: 'Frenter: Infrastructure for the equipment rental industry',
     image: zach,
   },
   {
@@ -25,7 +25,7 @@ const founders = [
   },
   {
     name: 'Eric Zhu',
-    company: 'Aviato: Search Engine For Startups',
+    company: 'Aviato: Search engine for startups',
     age: 15,
     image: eric,
   },
