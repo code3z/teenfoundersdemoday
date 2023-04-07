@@ -25,7 +25,7 @@ const founders = [
   },
   {
     name: 'Eric Zhu',
-    company: 'Aviato, Search Engine For Startups',
+    company: 'Aviato: Search Engine For Startups',
     age: 15,
     image: eric,
   },
