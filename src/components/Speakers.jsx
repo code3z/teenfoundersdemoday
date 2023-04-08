@@ -3,6 +3,8 @@ import { Container } from '@/components/Container'
 import eric from '@/images/avatars/eric.jpeg'
 import zach from '@/images/avatars/zach.jpeg'
 import pranjali from '@/images/avatars/pranjali.jpeg'
+import gabriel from '@/images/avatars/gabriel.webp'
+import tejas from '@/images/avatars/tejas.jpeg'
 
 const founders = [
   {
@@ -22,6 +24,18 @@ const founders = [
     company: 'Aviato: Search engine for startups',
     age: 15,
     image: eric,
+  },
+  {
+    name: 'Gabriel Romualdo',
+    company: 'Challenger',
+    age: 17,
+    image: gabriel,
+  },
+  {
+    name: 'Tejas Ravishankar',
+    company: 'Dimension: The first developer experience platform',
+    age: 16,
+    image: tejas,
   },
 ]
 export function Speakers() {
