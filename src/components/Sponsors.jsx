@@ -15,6 +15,7 @@ import a16z from '@/images/logos/a16z.svg'
 import serena from '@/images/logos/serena.webp'
 import council from '@/images/logos/council.png'
 import pear from '@/images/logos/pear.svg'
+import drive from '@/images/logos/drive.png'
 
 const vcs = [
   {
@@ -39,12 +40,16 @@ const VC = ({ children }) => (
 )
 export function Sponsors() {
   return (
-    <section id="sponsors" aria-label="Sponsors" className="py-20 sm:py-32">
-      <Container>
-        <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-primary sm:text-5xl">
+    <section
+      id="sponsors"
+      aria-label="Sponsors"
+      className="bg-slate-300 py-20 sm:mx-16 sm:rounded-5xl sm:py-32"
+    >
+      <Container className="">
+        <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter sm:text-5xl">
           Attended by incredible investors
         </h2>
-        <div className="mx-auto mt-20 flex max-w-xl grid-cols-1 flex-wrap place-content-center gap-y-12 gap-x-32 md:gap-x-16 lg:gap-x-32">
+        <div className="mx-auto mt-20 flex max-w-2xl grid-cols-1 flex-wrap place-content-center gap-y-12 gap-x-32 md:gap-x-16 lg:gap-x-32">
           {/*  <VC>
             <Image
               src={riefVentures}
@@ -59,16 +64,13 @@ export function Sponsors() {
             <div>Night Ventures</div>
   </VC>*/}
           <VC>
-            <Image src={goldman} height={100} width={100} className="invert" />
-            <div>Goldman Sachs</div>
+            <Image src={goldman} height={120} width={120} />
           </VC>
           <VC>
-            <Image src={a16z} height={100} width={100} className="invert" />
-            <div>a16z</div>
+            <Image src={a16z} height={120} width={120} />
           </VC>
           <VC>
-            <Image src={council} height={100} width={100} className="invert" />
-            <div>The Council</div>
+            <Image src={council} height={120} width={120} />
           </VC>
           {/*  <VC>
             <Image src={serena} height={200} width={200} className="" />
@@ -79,20 +81,21 @@ export function Sponsors() {
             <div>General Catalyst</div>
 </VC>*/}
           <VC>
-            <Image src={logo1517} height={100} width={100} />
-            <div>1517 Fund</div>
+            <Image src={logo1517} height={120} width={120} />
           </VC>
           <VC>
-            <Image src={pear} height={100} width={100} />
-            <div>Pear</div>
+            <Image src={pear} height={120} width={120} />
+          </VC>
+          <VC>
+            <Image src={drive} height={120} width={120} />
           </VC>
           {/*   <VC>
             <Image src={foundation} height={100} width={100} />
             <div>Foundation Capital</div>
 </VC>*/}
         </div>
-        <div className="mt-8 text-center font-bold text-indigo-50">
-          + many more
+        <div className="mt-8 text-center font-bold text-gray-600">
+          + Cory Levy and many more
         </div>
       </Container>
     </section>

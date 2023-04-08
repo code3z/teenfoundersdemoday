@@ -24,7 +24,10 @@ export default function Home() {
         <Speakers />
         {/* <Schedule />*/}
         <Sponsors />
-        <div className="my-12 flex items-center justify-center space-x-8">
+        <h2 className="mx-auto mt-48 max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-primary sm:text-5xl">
+          You won&apos;t want to miss this.
+        </h2>
+        <div className="mt-12 mb-24 flex items-center justify-center space-x-8">
           <Button href="https://lu.ma/aotfdemoday">
             Signup as a VC
             <span className="ml-2">🚀</span>

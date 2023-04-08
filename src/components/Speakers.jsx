@@ -46,7 +46,7 @@ export function Speakers() {
       className="py-20 sm:py-32"
     >
       <Container>
-        <div className="sticky top-0 z-50 mx-auto w-full -translate-x-0.5 bg-gray-900 px-1 pt-8 lg:mx-0">
+        <div className="sticky top-0 z-50 mx-auto w-full -translate-x-0.5 bg-gray-900 px-1 py-8 lg:mx-0">
           <h2
             id="speakers-title"
             className="font-display text-4xl font-medium tracking-tighter text-primary sm:text-5xl"
@@ -56,7 +56,7 @@ export function Speakers() {
           <p className="mt-4 max-w-2xl font-display text-2xl tracking-tight text-primary-light">
             These are just a few of the awesome teens pitching.
           </p>
-          <div className="absolute -bottom-12 h-12 w-full bg-gradient-to-b from-gray-900 via-gray-900" />
+          <div className="absolute -bottom-6 h-6 w-full bg-gradient-to-b from-gray-900 via-gray-900" />
         </div>
 
         <div className="mx-0.5 mt-8">
