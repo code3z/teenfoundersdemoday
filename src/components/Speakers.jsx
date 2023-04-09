@@ -27,12 +27,12 @@ const founders = [
     age: 15,
     image: eric,
   },
-  {
+  /*{
     name: 'Gabriel Romualdo',
     company: 'Challenger',
     age: 17,
     image: gabriel,
-  },
+  },*/
   {
     name: 'Tejas Ravishankar',
     company: 'Dimension: The first developer experience platform',
