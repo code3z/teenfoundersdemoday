@@ -16,6 +16,7 @@ import serena from '@/images/logos/serena.webp'
 import council from '@/images/logos/council.png'
 import pear from '@/images/logos/pear.svg'
 import drive from '@/images/logos/drive.png'
+import waterbridge from '@/images/logos/waterbridge.svg'
 
 const vcs = [
   {
@@ -88,6 +89,14 @@ export function Sponsors() {
           </VC>
           <VC>
             <Image src={drive} height={120} width={120} />
+          </VC>
+          <VC>
+            <Image
+              src={waterbridge}
+              height={150}
+              width={150}
+              className="invert"
+            />
           </VC>
           {/*   <VC>
             <Image src={foundation} height={100} width={100} />

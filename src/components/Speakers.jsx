@@ -5,6 +5,7 @@ import zach from '@/images/avatars/zach.jpeg'
 import pranjali from '@/images/avatars/pranjali.jpeg'
 import gabriel from '@/images/avatars/gabriel.webp'
 import tejas from '@/images/avatars/tejas.jpeg'
+import clsx from 'clsx'
 
 const founders = [
   {
@@ -18,6 +19,7 @@ const founders = [
     age: 16,
     company: 'Delv: AI-powered search platform for enterprise-level R&D',
     image: pranjali,
+    className: 'object-top',
   },
   {
     name: 'Eric Zhu',
@@ -36,6 +38,7 @@ const founders = [
     company: 'Dimension: The first developer experience platform',
     age: 16,
     image: tejas,
+    className: 'object-top',
   },
 ]
 export function Speakers() {
@@ -66,7 +69,10 @@ export function Speakers() {
               key={founder.name}
             >
               <Image
-                className="h-full max-h-96 rounded-4xl object-cover"
+                className={clsx(
+                  'h-full max-h-96 rounded-4xl object-cover',
+                  founder.className
+                )}
                 src={founder.image}
                 alt=""
                 priority
