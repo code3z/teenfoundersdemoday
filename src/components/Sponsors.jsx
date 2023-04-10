@@ -17,6 +17,7 @@ import council from '@/images/logos/council.png'
 import pear from '@/images/logos/pear.svg'
 import drive from '@/images/logos/drive.png'
 import waterbridge from '@/images/logos/waterbridge.svg'
+import vol1 from '@/images/logos/vol1.jpg'
 
 const vcs = [
   {
@@ -98,13 +99,20 @@ export function Sponsors() {
               className="invert"
             />
           </VC>
+          <Image
+            src={vol1}
+            height={150}
+            width={150}
+            className="rounded-md bg-black px-2"
+          />
+
           {/*   <VC>
             <Image src={foundation} height={100} width={100} />
             <div>Foundation Capital</div>
 </VC>*/}
         </div>
         <div className="mt-8 text-center font-bold text-gray-600">
-          + Cory Levy and many more
+          + Cory Levy, Dave Fontenot, and many more
         </div>
       </Container>
     </section>

@@ -6,6 +6,7 @@ import pranjali from '@/images/avatars/pranjali.jpeg'
 import gabriel from '@/images/avatars/gabriel.webp'
 import tejas from '@/images/avatars/tejas.jpeg'
 import clsx from 'clsx'
+import jake from '@/images/avatars/jake.jpg'
 
 const founders = [
   {
@@ -13,6 +14,16 @@ const founders = [
     age: 17,
     company: 'Frenter: Infrastructure for the equipment rental industry',
     image: zach,
+    credentials:
+      'Raised $900k from Jason Calacanis, 1517, Gaingels, LOI Ventures ',
+  },
+  {
+    name: 'Jake Adler',
+    company:
+      'Neusleep: personalized nerve stimulation to directly induce and improve natural sleep',
+    credentials: 'Thiel Fellow',
+    age: 18,
+    image: jake,
   },
   {
     name: 'Pranjali Awasthi',
@@ -24,15 +35,16 @@ const founders = [
   {
     name: 'Eric Zhu',
     company: 'Aviato: Search engine for startups',
+    credentials: 'Raised $1m',
     age: 15,
     image: eric,
   },
-  /*{
+  {
     name: 'Gabriel Romualdo',
     company: 'Challenger',
     age: 17,
     image: gabriel,
-  },*/
+  },
   {
     name: 'Tejas Ravishankar',
     company: 'Dimension: The first developer experience platform',
@@ -82,8 +94,11 @@ export function Speakers() {
                 <h3 className="mt-8 font-display text-3xl font-bold tracking-tight text-slate-100">
                   {founder.name}
                 </h3>
-                <p className="mt-1 text-lg  tracking-tight text-slate-300">
+                <p className="mt-1 text-lg  font-medium tracking-tight text-slate-300">
                   {founder.company}
+                </p>
+                <p className="mt-1 text-lg  tracking-tight text-slate-300">
+                  {founder.credentials}
                 </p>
                 <p className="mt-1 text-lg tracking-tight text-slate-400">
                   {founder.age} years old
