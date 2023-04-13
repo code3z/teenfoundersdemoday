@@ -18,6 +18,7 @@ import pear from '@/images/logos/pear.svg'
 import drive from '@/images/logos/drive.png'
 import waterbridge from '@/images/logos/waterbridge.svg'
 import vol1 from '@/images/logos/vol1.jpg'
+import rdv from '@/images/logos/rdv.svg'
 
 const vcs = [
   {
@@ -48,10 +49,10 @@ export function Sponsors() {
       className="bg-slate-300 py-20 sm:mx-16 sm:rounded-5xl sm:py-32"
     >
       <Container className="">
-        <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter sm:text-5xl">
+        <h2 className="mx-auto text-center font-display text-4xl font-medium tracking-tighter sm:text-5xl">
           Attended by incredible investors
         </h2>
-        <div className="mx-auto mt-20 flex max-w-2xl grid-cols-1 flex-wrap place-content-center gap-y-12 gap-x-32 md:gap-x-16 lg:gap-x-32">
+        <div className="mx-auto mt-12 flex max-w-4xl grid-cols-1 flex-wrap place-content-center gap-y-12 gap-x-32 md:gap-x-16 lg:gap-x-32">
           {/*  <VC>
             <Image
               src={riefVentures}
@@ -65,23 +66,16 @@ export function Sponsors() {
             <Image src={nightVentures} height={100} width={100} />
             <div>Night Ventures</div>
   </VC>*/}
-          <VC>
-            <Image src={goldman} height={120} width={120} />
-          </VC>
-          <VC>
-            <Image src={a16z} height={120} width={120} />
-          </VC>
+          <Image src={goldman} height={120} width={120} />
+          <Image src={a16z} height={120} width={120} />
+          <Image src={gc} height={60} width={60}></Image>
+          <Image src={rdv} height={120} width={120} />
           <VC>
             <Image src={council} height={120} width={120} />
           </VC>
-          {/*  <VC>
-            <Image src={serena} height={200} width={200} className="" />
-            <div>Serena Ventures</div>
-          </VC>
           <VC>
-            <Image src={gc} height={60} width={60}></Image>
-            <div>General Catalyst</div>
-</VC>*/}
+            <Image src={serena} height={200} width={200} className="invert" />
+          </VC>
           <VC>
             <Image src={logo1517} height={120} width={120} />
           </VC>

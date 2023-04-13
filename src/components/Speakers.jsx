@@ -19,26 +19,11 @@ const founders = [
       'Raised $900k from Jason Calacanis, 1517, Gaingels, LOI Ventures ',
   },
   {
-    name: 'Jake Adler',
-    company:
-      'Neusleep: personalized nerve stimulation to directly induce and improve natural sleep',
-    credentials: 'Thiel Fellow',
-    age: 18,
-    image: jake,
-  },
-  {
     name: 'Pranjali Awasthi',
     age: 16,
     company: 'Delv: AI-powered search platform for enterprise-level R&D',
     image: pranjali,
     className: 'object-top',
-  },
-  {
-    name: 'Eric Zhu',
-    company: 'Aviato: Search engine for startups',
-    credentials: 'Raised $1m',
-    age: 15,
-    image: eric,
   },
   {
     name: 'Gabriel Romualdo',
