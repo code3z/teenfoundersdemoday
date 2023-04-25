@@ -7,7 +7,6 @@ import gabriel from '@/images/avatars/gabriel.webp'
 import tejas from '@/images/avatars/tejas.jpeg'
 import clsx from 'clsx'
 import jake from '@/images/avatars/jake.jpg'
-import rhett from '@/images/avatars/rhett.jpg'
 
 const founders = [
   {
@@ -37,13 +36,6 @@ const founders = [
     age: 16,
     image: tejas,
     className: 'object-top',
-  },
-  {
-    name: 'Rhett Jones',
-    company: `Building Texas's first world-class bike park`,
-    credentials: 'first founded a public, volunteer-built $40K park',
-    age: 17,
-    image: rhett,
   },
 ]
 export function Speakers() {
